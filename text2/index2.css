@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #dedede;
+}
+p{
+    text-indent: 2em;
+}
+.wrapper{
+    width: 1284px;
+    margin: 0 auto;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+}
+.header a:hover{
+    color: #a7a7a7;
+}
+.header{
+    height: 62px;
+    width: 1284px;
+    background-color: #333;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px #ABAAAA;
+}
+.header-logo{
+    width: 200px;
+    float: left;
+}
+.header-logo img{
+    width: 200px;
+    border-radius: 15px;
+}
+.header ul{
+    height: 62px;
+    width: 430px;
+    float: right;
+}
+.header ul li{
+    float: left;
+    height: 62px;
+    line-height: 62px;
+}
+.header ul li a{
+    margin-right: 27px;
+}
+.text1 img{
+    width: 200px;
+    height: 200px;
+}
+.text1,.text2,.text3,.text4,.text5{
+    width: 1240px;
+    padding: 20px;
+    background-color: white;
+    margin-top: 23px;
+    margin-bottom: 23px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px #ABAAAA;
+}
+.text2 ol{
+    list-style: none;
+}
+.pdiv h3,.pdiv h6{
+    color: #ABAAAA;
+    padding-top: 10px;
+}
+.pdiv h6{
+    padding-bottom: 15px;
+}
+.text3-img{
+    border: 1px solid #a7a7a7;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 240px;
+    text-align: center;
+    margin-left: 50px;
+}
+.text3-img img{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+.text4 table{
+    text-align:left;
+    width: 1235px;
+    height: 190px;
+}
+.tr1{
+    background-color: black;
+    color: white;
+}
+.tr5{
+    background-color: #a7a7a7;
+
+
+}
+.text5 form{
+    margin-left: 290px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 40px;
+}
+.text5 form span{
+    color: #ABAAAA;
+    text-align: left;
+}
+.input1{
+    float: right;
+    margin-right: 630px;
+    margin-top: 6px;
+    padding: 4px;
+}
+.submit{
+    height: 40px;
+    background-color: blue;
+    color: white;
+    width: 1240px;
+    border-radius: 15px;
+}
+.footer{
+    height: 50px;
+    line-height: 50px;
+    background-color: #000;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+}

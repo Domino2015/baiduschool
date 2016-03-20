@@ -1,0 +1,26 @@
+.box{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    left: 0;right: 0;
+    top:0;bottom: 0;
+    margin: auto;
+    background-color: #ccc;
+    overflow: hidden;
+}
+.box2,.box3{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #fc0;
+}
+.box2{
+    position: absolute;
+    top:-50px;
+    left: -50px;
+}
+.box3{
+    position: absolute;
+    bottom: -50px;
+    right: -50px;
+}
