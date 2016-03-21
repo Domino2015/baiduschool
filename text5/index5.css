@@ -57,6 +57,7 @@ p {
 
 .content{
     margin: 0 auto;
+    float: left;
 }
 
 .text1 img {
@@ -65,10 +66,9 @@ p {
 }
 
 .text1, .text2, .text3, .text4, .text5 {
-    width: 80%;
+    width: 60%;
     padding: 20px;
     background-color: white;
-    margin: 0 auto;
     margin-top: 23px;
     margin-bottom: 23px;
     border-radius: 15px;
@@ -88,7 +88,9 @@ p {
 .pdiv h6 {
     padding-bottom: 15px;
 }
-
+.pdiv{
+    overflow: hidden;
+}
 .text3-img {
     border: 1px solid #a7a7a7;
     margin-top: 20px;
@@ -96,6 +98,7 @@ p {
     width: 240px;
     text-align: center;
     margin-left: 50px;
+    float: left;
 }
 
 .text3-img img {
@@ -106,7 +109,7 @@ p {
 
 .text4 table {
     text-align: left;
-    width: 1235px;
+    width: 80%;
     height: 190px;
 }
 
@@ -120,6 +123,19 @@ p {
 
 }
 
+.footer {
+    height: 50px;
+    line-height: 50px;
+    background-color: #000;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+}
+
+.text5{
+    float: left;
+    width: 30%;
+}
 .text5 form {
     margin-left: 290px;
     margin-top: 10px;
@@ -134,7 +150,6 @@ p {
 
 .input1 {
     float: right;
-    margin-right: 630px;
     margin-top: 6px;
     padding: 4px;
 }
@@ -142,16 +157,6 @@ p {
 .submit {
     height: 40px;
     background-color: blue;
-    color: white;
-    width: 1240px;
-    border-radius: 15px;
-}
-
-.footer {
-    height: 50px;
-    line-height: 50px;
-    background-color: #000;
-    text-align: center;
     color: white;
     border-radius: 15px;
 }

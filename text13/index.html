@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task_13</title>
+</head>
+<body>
+	<span>请输入北京今天空气质量：</span>
+	<input type="text" id="user_in"/>
+	<input type="button" value="确认填写" onclick="btn_click()" />
+	<div>您输入的值是：<span id="prompt">尚无输入</span></div>
+</body>
+<script type="text/javascript">
+	function btn_click(){
+		var user_in = document.getElementById('user_in');
+		var prompt = document.getElementById('prompt');
+		if(user_in.value == ""){
+			alert("请输入北京今天空气质量！");
+		}else{
+			prompt.innerHTML = user_in.value;
+		}
+	}
+</script>
+</html>
