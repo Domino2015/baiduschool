@@ -1,0 +1,68 @@
+.box {
+    position: relative;
+}
+
+.right1, .left1 {
+    position: absolute;
+    top: 0
+}
+
+.right1 {
+    right: 0;
+    background: salmon;
+    width: 120px;
+    height: auto;
+    margin: 20px;
+    border: 1px solid #999;
+    margin-top: 0;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #000;
+}
+
+.left1 {
+    left: 0;
+    background: #009933;
+    width: 200px;
+    height: auto;
+    margin: 20px;
+    margin-top: 0;
+    border: 1px solid #999;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #000;
+}
+
+.center1 {
+    background: #F60;
+    height: auto;
+    margin: 20px 162px 0 242px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #000;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    float: left;
+}
+
+.logo > img {
+    width: 78px;
+    height: 78px;
+    border: 1px solid #999;
+}
+
+.left > span {
+    width: 80px;
+    float: left;
+    margin-top: 20px;
+}
+
+.word {
+    margin: 20px;
+}
+
+.word > p {
+    font-size: 12px;
+}
